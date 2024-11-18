@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    border: 1px black solid;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.top-section img{
+    width: 1000px;
+    height: 600px;
+}
+.first-line{
+   text-align: center;
+   font-size: 50px;
+}
+.second-line p{
+    text-align: center;
+    font-size: 22px;
+    padding: 20px 100px;
+}
+.middle-section img{
+    width: 1000px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+.third-section img{
+    width: 1000px;
+    height: 400px;
+}
+.fourth-section img{
+    width: 1000px;
+    height: 600px;
+
+}

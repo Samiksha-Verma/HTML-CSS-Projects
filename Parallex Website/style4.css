@@ -1,0 +1,92 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.2cm;
+    color: #666;
+}
+.pimg1{
+    background-image: url("/All picture/nature1.jpg");
+    min-height: 1000px;
+}
+.pimg2{
+    background-image: url("/All picture/nature2.jpg");
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url("/All picture/nature3.jpg");
+    min-height: 400px;
+}
+.pimg4{
+    background-image: url("/All picture/nature4.jpg");
+    min-height: 1000px;
+   
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   background-attachment: fixed;
+}
+.pimg1,
+.pimg2, 
+.pimg3
+{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+   
+   
+}
+.textBg{
+    background-color: #313534;
+    color: #fff;
+    padding: 15px;
+   
+}
+
+.section-light{
+    background-color: #282e34;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+
+}
+.section-light h2{
+    font-size: 50px;
+    
+}
+.section-light p{
+    font-size: 25px;
+    padding: 0px;
+}
+.section-dark{
+    background-color: #282e34;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+.section-dark h2{
+    font-size: 50px;
+}
+.section-dark p{
+    font-size: 25px;
+    padding: 0px;
+}
